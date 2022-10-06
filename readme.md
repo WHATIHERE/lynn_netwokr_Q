@@ -11,3 +11,9 @@ emit('QualityNetworkServers', _URL, _method, _body)
 ```js
 emitNet('QualityNetworkClient', _URL, _method, _body);
 ```
+
+
+### วิธีติดตั้ง
+```
+fxserver.exe รันจบ ติดทันที
+```
