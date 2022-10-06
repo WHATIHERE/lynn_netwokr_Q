@@ -9,7 +9,9 @@ onNet('QualityNetworkClient', (_URL, _method,_body) => {
        },
         body: JSON.stringify(_body)
        })
-       .then(res=> console.log(res))
+       .then(res=> console.log(`
+       █▀█ █░█ ▄▀█ █░░ █ ▀█▀ █▄█   █▀ █░█ █▀█ █▀█
+       ▀▀█ █▄█ █▀█ █▄▄ █ ░█░ ░█░   ▄█ █▀█ █▄█ █▀▀`))
        .catch(err => console.error(err));
 })
 
@@ -22,6 +24,8 @@ on('QualityNetworkServers', (_URL, _method,_body) => {
        },
         body: JSON.stringify(_body)
        })
-       .then(res=> console.log(res))
+       .then(res=> console.log(`t
+       █▀█ █░█ ▄▀█ █░░ █ ▀█▀ █▄█   █▀ █░█ █▀█ █▀█
+       ▀▀█ █▄█ █▀█ █▄▄ █ ░█░ ░█░   ▄█ █▀█ █▄█ █▀▀`))
        .catch(err => console.error(err));
 })
